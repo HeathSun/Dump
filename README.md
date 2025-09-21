@@ -5,6 +5,9 @@ A voice-powered AI companion that helps users navigate breakups, manage emotions
 
 ---
 
+<img width="2236" height="1318" alt="image" src="https://github.com/user-attachments/assets/273e2f73-ec4a-41c3-80e3-8ddc0af4cbfe" />
+
+
 ## Features
 
 * **💬 Voice-to-Text** – Real-time speech recognition using Deepgram API
