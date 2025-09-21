@@ -84,6 +84,16 @@ AGENT_ID=your_elevenlabs_agent_id_here
 
 ## Usage
 
+Sponsors & Technology Partners
+
+Google – Powering innovation and creativity with tools and platforms that enable builders everywhere.
+
+ElevenLabs – An AI audio research and deployment company making content universally accessible in any language and voice. Their advanced AI models generate realistic, versatile, and contextually aware speech, voices, and sound effects across 32 languages, supporting applications from audiobooks to medical training. elevenlabs.io
+
+Morph – Middleware for coding agents that makes LLMs practical for agentic coding, powering fast, reliable, high-throughput code edits and retrieval in large codebases. morphllm.com
+
+Toolhouse.ai – Backend-as-a-Service (BaaS) platform to build, run, and manage AI agents, simplifying deployment, memory, observability, and prompt optimization. toolhouse.ai
+
 ### Main Application (OpenAI/Gemini)
 
 ```bash
