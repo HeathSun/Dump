@@ -13,6 +13,8 @@ def main():
     
     AGENT_ID=os.environ.get('AGENT_ID')
     API_KEY=os.environ.get('ELEVENLABS_API_KEY')
+    BOYFRIEND_NAME=os.environ.get('BOYFRIEND_NAME', 'Unknown')
+    PHONE_NUMBER=os.environ.get('PHONE_NUMBER', 'Unknown')
 
     if not AGENT_ID:
         sys.stderr.write("AGENT_ID environment variable must be set\n")
@@ -20,6 +22,9 @@ def main():
     
     if not API_KEY:
         sys.stderr.write("ELEVENLABS_API_KEY not set, assuming the agent is public\n")
+
+    print(f"Starting call agent for {BOYFRIEND_NAME} at {PHONE_NUMBER}")
+    print("Agent is ready to make the call...")
 
     client = ElevenLabs(api_key=API_KEY)
     conversation = Conversation(
